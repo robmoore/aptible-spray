@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/aptible-spray
+web: /app/target/universal/stage/bin/aptible-spray
