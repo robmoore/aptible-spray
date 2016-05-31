@@ -8,6 +8,6 @@ RUN echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list
 ADD . /app
 WORKDIR /app
 
-RUN sbt universal:packageBin
+RUN sbt stage
 
 EXPOSE 8080
