@@ -19,4 +19,12 @@ libraryDependencies ++= {
   )
 }
 
+libraryDependencies ++= Seq(
+  "org.scala-lang" % "scala-reflect" % "2.11.6",
+  "org.scala-lang.modules" % "scala-parser-combinators_2.11" % "1.0.3"
+)
+
 Revolver.settings
+
+enablePlugins(JavaAppPackaging)
+
