@@ -10,6 +10,6 @@ RUN echo "deb http://dl.bintray.com/sbt/debian /" | tee -a /etc/apt/sources.list
 ADD . /app
 WORKDIR /app
 
-RUN sbt --warn stage
+RUN sbt stage
 
 EXPOSE 8080
